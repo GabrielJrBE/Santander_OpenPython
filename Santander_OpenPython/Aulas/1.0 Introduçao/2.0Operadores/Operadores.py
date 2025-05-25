@@ -17,10 +17,15 @@ divisao_inteira a // b #3
 modulo = a % b # 1
 exponenciacao = a ** b # 1000
 
-#De comparação
+# De comparação
 
 igual = a == b #False
 difenrete = a! = b #True
 maior que = a > b #True
 menor que = a < b #False
 maior ou igual = a >= b # True
+
+# Logicos
+resultado_and = (a > 5 ) and (b < 15 ) #True
+resultado_or = (a > 15 ) or (b < 5) #True
+resultado_not = not (a > 5 ) #False
